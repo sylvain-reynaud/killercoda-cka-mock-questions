@@ -1,0 +1,26 @@
+{
+  "title": "CKA Mock Exam: Least Permissive Network Policy",
+  "description": "Create a network policy to allow ingress traffic from a specific deployment in another namespace - 20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Create Ingress Network Policy",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}

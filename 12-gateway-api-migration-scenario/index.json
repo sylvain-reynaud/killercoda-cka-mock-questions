@@ -1,0 +1,26 @@
+{
+  "title": "CKA Mock Exam: Migrate Ingress to Gateway API",
+  "description": "Migrate an existing Kubernetes Ingress to the new Gateway and HTTPRoute resources - 25 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Migrate to Gateway and HTTPRoute",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-gateway-api"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
