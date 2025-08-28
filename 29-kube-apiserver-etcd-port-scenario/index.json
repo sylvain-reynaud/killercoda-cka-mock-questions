@@ -1,0 +1,26 @@
+{
+  "title": "29 - k8s Mock Exam: Troubleshoot API Server and etcd Port",
+  "description": "Diagnose and fix a broken kube-apiserver that is pointing to the wrong etcd port - 20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Fix kube-apiserver Configuration",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}

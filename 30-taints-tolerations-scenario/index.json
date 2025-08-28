@@ -1,0 +1,26 @@
+{
+  "title": "30 - k8s Mock Exam: Taints and Tolerations",
+  "description": "Apply a taint to a node and schedule a pod with the correct toleration - 15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Apply Taint and Schedule Pod",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
