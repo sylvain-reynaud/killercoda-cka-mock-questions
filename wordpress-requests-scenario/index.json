@@ -1,0 +1,26 @@
+{
+  "title": "CKA Mock Exam: WordPress Resource Requests",
+  "description": "Adjust Pod resource requests for a WordPress deployment - 20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Configure Resource Requests",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
