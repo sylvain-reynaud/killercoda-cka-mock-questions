@@ -1,0 +1,26 @@
+{
+  "title": "20 - CKA Mock Exam: Configure NGINX TLS via ConfigMap",
+  "description": "Update a ConfigMap to restrict NGINX to only allow TLSv1.3 connections - 15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Update ConfigMap to Allow Only TLSv1.3",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ingress-nginx-1.20"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
