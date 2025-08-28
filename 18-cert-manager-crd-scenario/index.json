@@ -1,0 +1,26 @@
+{
+  "title": "18 - CKA Mock Exam: Verify Cert-Manager CRDs",
+  "description": "Use kubectl to list CRDs with default output and extract field documentation - 15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Inspect Cert-Manager CRDs",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
