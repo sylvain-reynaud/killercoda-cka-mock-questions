@@ -1,0 +1,26 @@
+{
+  "title": "CKA Mock Exam: PriorityClass and Pod Preemption",
+  "description": "Use a PriorityClass to evict a running Pod and schedule a pending Pod - 20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Configure PriorityClass and Trigger Preemption",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
