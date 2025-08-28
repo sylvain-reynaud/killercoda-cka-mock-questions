@@ -1,0 +1,26 @@
+{
+  "title": "CKA Mock Exam: Expose Deployment with NodePort",
+  "description": "Configure a deployment and expose it with a NodePort service - 15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Expose Deployment and Create NodePort Service",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}

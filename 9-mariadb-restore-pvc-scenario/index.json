@@ -1,0 +1,34 @@
+{
+  "title": "CKA Mock Exam: Restore Deployment with Existing PVC",
+  "description": "Restore a deleted MariaDB deployment by creating a PVC to bind to its retained PV - 20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Restore MariaDB Deployment",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "mariadb-deploy.yaml",
+          "target": "/root/"
+        }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
