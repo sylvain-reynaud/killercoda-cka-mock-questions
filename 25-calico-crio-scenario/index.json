@@ -1,0 +1,26 @@
+{
+  "title": "25 - CKA Mock Exam: Set Up Calico CNI with CRI-O",
+  "description": "Install the Calico CNI on a kubeadm cluster that is using the CRI-O container runtime - 20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Install Calico CNI",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-crio-1.28"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
