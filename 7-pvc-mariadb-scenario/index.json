@@ -1,0 +1,34 @@
+{
+  "title": "CKA Mock Exam: PersistentVolumeClaim Management",
+  "description": "Create a PersistentVolumeClaim and mount it into a MariaDB deployment - 20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Create and Use a PVC",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "maria.deploy.yaml",
+          "target": "/root/"
+        }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
