@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Setting up CKA exam environment..."
+echo "Setting up k8s exam environment..."
 
 # Wait for Kubernetes cluster to be ready
 kubectl wait --for=condition=Ready nodes --all --timeout=300s
@@ -72,7 +72,7 @@ kubectl get deployment apache-deployment -n autoscale
 
 echo "✅ Environment ready: apache-deployment running in autoscale namespace"
 echo "✅ Metrics server installed and running"
-echo "Ready for CKA exam question!"
+echo "Ready for k8s exam question!"
 
 # Create completion marker
 touch /tmp/setup-complete

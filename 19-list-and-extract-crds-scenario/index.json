@@ -1,5 +1,5 @@
 {
-  "title": "19 - CKA Mock Exam: List and Extract CRDs",
+  "title": "19 - k8s Mock Exam: List and Extract CRDs",
   "description": "Use kubectl to list cert-manager CRDs and extract the subject field from the Certificate CRD - 15 minutes",
   "details": {
     "intro": {

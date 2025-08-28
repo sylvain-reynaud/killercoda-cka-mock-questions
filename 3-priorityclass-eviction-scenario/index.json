@@ -1,5 +1,5 @@
 {
-  "title": "03 - CKA Mock Exam: PriorityClass and Pod Preemption",
+  "title": "03 - k8s Mock Exam: PriorityClass and Pod Preemption",
   "description": "Use a PriorityClass to evict a running Pod and schedule a pending Pod - 20 minutes",
   "details": {
     "intro": {

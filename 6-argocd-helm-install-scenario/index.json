@@ -1,5 +1,5 @@
 {
-  "title": "06 - CKA Mock Exam: Argo CD Helm Installation",
+  "title": "06 - k8s Mock Exam: Argo CD Helm Installation",
   "description": "Install Argo CD using a Helm template while skipping CRD installation - 15 minutes",
   "details": {
     "intro": {

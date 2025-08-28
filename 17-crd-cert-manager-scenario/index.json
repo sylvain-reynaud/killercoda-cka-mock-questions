@@ -1,5 +1,5 @@
 {
-  "title": "17 - CKA Mock Exam: Inspecting CRDs",
+  "title": "17 - k8s Mock Exam: Inspecting CRDs",
   "description": "Use kubectl to list CRDs and extract documentation for a specific field - 15 minutes",
   "details": {
     "intro": {

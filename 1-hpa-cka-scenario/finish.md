@@ -19,4 +19,4 @@ This configuration pattern is commonly used in production environments for:
 - API services requiring responsive scaling
 - Cost optimization through automatic scaling down during low usage 
 
-**Excellent work! This scenario covered a key CKA exam topic.**
+**Excellent work! This scenario covered a key k8s exam topic.**

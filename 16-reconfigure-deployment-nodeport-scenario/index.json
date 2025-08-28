@@ -1,5 +1,5 @@
 {
-  "title": "16 - CKA Mock Exam: Reconfigure Deployment and Expose with NodePort",
+  "title": "16 - k8s Mock Exam: Reconfigure Deployment and Expose with NodePort",
   "description": "Modify an existing deployment to expose a port and create a NodePort service to make it accessible - 15 minutes",
   "details": {
     "intro": {

@@ -1,5 +1,5 @@
 {
-  "title": "14 - CKA Mock Exam: Select and Apply Network Policy",
+  "title": "14 - k8s Mock Exam: Select and Apply Network Policy",
   "description": "Analyze requirements and choose the correct, least-permissive network policy from a set of options - 20 minutes",
   "details": {
     "intro": {

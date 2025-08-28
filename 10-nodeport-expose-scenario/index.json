@@ -1,5 +1,5 @@
 {
-  "title": "10 - CKA Mock Exam: Expose Deployment with NodePort",
+  "title": "10 - k8s Mock Exam: Expose Deployment with NodePort",
   "description": "Configure a deployment and expose it with a NodePort service - 15 minutes",
   "details": {
     "intro": {

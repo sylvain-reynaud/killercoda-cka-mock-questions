@@ -1,5 +1,5 @@
 {
-  "title": "18 - CKA Mock Exam: Verify Cert-Manager CRDs",
+  "title": "18 - k8s Mock Exam: Verify Cert-Manager CRDs",
   "description": "Use kubectl to list CRDs with default output and extract field documentation - 15 minutes",
   "details": {
     "intro": {
