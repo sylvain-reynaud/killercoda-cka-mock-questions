@@ -1,0 +1,26 @@
+{
+  "title": "CKA Mock Exam: Argo CD Helm Installation",
+  "description": "Install Argo CD using a Helm template while skipping CRD installation - 15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Generate Argo CD Helm Template",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-helm-3.7"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
