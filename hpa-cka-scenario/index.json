@@ -6,10 +6,16 @@
       "text": "intro.md",
       "background": "background.sh"
     },
+    "steps": [
+      {
+        "title": "Configure HPA",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
     "finish": {
       "text": "finish.md"
     },
-    "steps": [],
     "assets": {
       "host01": [
         {
