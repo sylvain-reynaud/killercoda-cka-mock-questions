@@ -1,5 +1,5 @@
 {
-  "title": "2 - CKA Mock Exam: PriorityClass Configuration",
+  "title": "02 - CKA Mock Exam: PriorityClass Configuration",
   "description": "Create a PriorityClass and patch a Deployment to use it - 15 minutes",
   "details": {
     "intro": {

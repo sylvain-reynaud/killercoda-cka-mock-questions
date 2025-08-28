@@ -1,5 +1,5 @@
 {
-  "title": "8 - CKA Mock Exam: WordPress Sidecar Container",
+  "title": "08 - CKA Mock Exam: WordPress Sidecar Container",
   "description": "Add a sidecar container and a shared volume to an existing WordPress deployment - 20 minutes",
   "details": {
     "intro": {

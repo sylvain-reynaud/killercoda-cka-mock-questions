@@ -1,5 +1,5 @@
 {
-  "title": "9 - CKA Mock Exam: Restore Deployment with Existing PVC",
+  "title": "09 - CKA Mock Exam: Restore Deployment with Existing PVC",
   "description": "Restore a deleted MariaDB deployment by creating a PVC to bind to its retained PV - 20 minutes",
   "details": {
     "intro": {
