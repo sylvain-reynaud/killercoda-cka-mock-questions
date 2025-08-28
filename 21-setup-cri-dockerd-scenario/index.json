@@ -1,0 +1,26 @@
+{
+  "title": "21 - CKA Mock Exam: Set Up cri-dockerd",
+  "description": "Install, enable, and configure cri-dockerd and related system parameters - 20 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Install and Configure cri-dockerd",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
