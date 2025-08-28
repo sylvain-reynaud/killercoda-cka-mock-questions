@@ -1,0 +1,26 @@
+{
+  "title": "CKA Mock Exam: Create Ingress Resource",
+  "description": "Create an Ingress resource to expose a service at a specific host and path - 15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Create the Echo Ingress",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-ingress-nginx"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
