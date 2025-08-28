@@ -1,0 +1,28 @@
+{
+  "title": "CKA Mock Exam: HorizontalPodAutoscaler Configuration",
+  "description": "Configure HPA for apache-deployment with specific scaling parameters - 15 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "steps": [],
+    "assets": {
+      "host01": [
+        {
+          "file": "apache-deployment.yaml",
+          "target": "/tmp/"
+        }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  },
+  "interface": {
+    "layout": "terminal"
+  }
+}
