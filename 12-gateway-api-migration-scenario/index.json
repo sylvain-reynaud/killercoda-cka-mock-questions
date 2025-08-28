@@ -1,5 +1,5 @@
 {
-  "title": "CKA Mock Exam: Migrate Ingress to Gateway API",
+  "title": "12 - CKA Mock Exam: Migrate Ingress to Gateway API",
   "description": "Migrate an existing Kubernetes Ingress to the new Gateway and HTTPRoute resources - 25 minutes",
   "details": {
     "intro": {

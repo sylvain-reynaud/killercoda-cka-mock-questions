@@ -1,5 +1,5 @@
 {
-  "title": "CKA Mock Exam: Troubleshoot Broken Kubeadm Cluster",
+  "title": "13 - CKA Mock Exam: Troubleshoot Broken Kubeadm Cluster",
   "description": "Diagnose and repair a broken single-node kubeadm cluster after a failed migration - 30 minutes",
   "details": {
     "intro": {

@@ -1,5 +1,5 @@
 {
-  "title": "CKA Mock Exam: Least Permissive Network Policy",
+  "title": "11 - CKA Mock Exam: Least Permissive Network Policy",
   "description": "Create a network policy to allow ingress traffic from a specific deployment in another namespace - 20 minutes",
   "details": {
     "intro": {

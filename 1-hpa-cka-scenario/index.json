@@ -1,5 +1,5 @@
 {
-  "title": "CKA Mock Exam: HorizontalPodAutoscaler Configuration",
+  "title": "1 - CKA Mock Exam: HorizontalPodAutoscaler Configuration",
   "description": "Configure HPA for apache-deployment with specific scaling parameters - 15 minutes",
   "details": {
     "intro": {

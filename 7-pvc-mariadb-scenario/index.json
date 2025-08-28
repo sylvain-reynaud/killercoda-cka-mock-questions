@@ -1,5 +1,5 @@
 {
-  "title": "CKA Mock Exam: PersistentVolumeClaim Management",
+  "title": "7 - CKA Mock Exam: PersistentVolumeClaim Management",
   "description": "Create a PersistentVolumeClaim and mount it into a MariaDB deployment - 20 minutes",
   "details": {
     "intro": {

@@ -1,5 +1,5 @@
 {
-  "title": "CKA Mock Exam: Create Ingress Resource",
+  "title": "15 - CKA Mock Exam: Create Ingress Resource",
   "description": "Create an Ingress resource to expose a service at a specific host and path - 15 minutes",
   "details": {
     "intro": {
